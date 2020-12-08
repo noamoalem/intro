@@ -1,0 +1,46 @@
+Logins: nir_amzaleg & noamoa
+Nir Amzaleg & Noa Moalem
+
+We didn't discussed the exercise with anybody.
+=============================
+=  README for ex10 = Asteroids :P  =
+=============================
+
+
+==================
+Description:
+==================
+
+We asked to create the game Asteroids using object oriented
+programming.
+
+About our Special shoot:
+It shoots three torpedoes in three different directions.
+It is a very powerful shot and therefore destroys the asteroids immediately.
+Also it gives the user 500 points.
+
+Decisions related to the program design:
+
+1. About the special shoot:
+We choose do not create a new class, but each special shoot it is
+a list of 3 regular Torpedos. The alternative is to create a new class
+of the special shoot, it is more elegant, but our choice was to use the
+Torpedo class functions, that already exist.
+
+2. About the game loop function:
+We chose to create 3 assist function, that each one responsible each class.
+_ship_game_loop()
+_asteroid_game_loop()
+_torpedo_game_loop()
+It makes the code more elegant, but we could keep the smaller
+function in the game loop main function, and then the user may
+understand better the occurrence.
+
+3. About the game loop function:
+We debated whether to check the user input in the game loop function
+or within the functions responsible for the particular operation.
+Finally we decided to check the input within the small functions so the
+game loop function is cleaner and more elegant.
+The advantage of leaving the conditions in the game loop function is that
+the user may understand better the occurrence.
+
