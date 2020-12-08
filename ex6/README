@@ -1,0 +1,28 @@
+
+Logins: nir_amzaleg & noamoa
+Nir Amzaleg & Noa Moalem
+
+We didn't discussed the exercise with anybody.
+=============================
+README for ex6 : wave files
+=============================
+
+==================
+Description: Editing a wave file. This program include 3
+different options to work with wave file. The first is to change
+an exist wave file ( volume it up/down , low pass filtered it,
+revers it and more...). The second option is to unit 2 wave files
+to a new one and the thirds one is to compose a new tune.
+the program allow the user to save the changes as a new file.
+
+Our program contain a main function that repeat the editing over and over,
+and ask if save the changes every time, until the user ask to get out.
+We chose to divide it to 3 another function (change_wav , union_file
+and compose_tune ) and a function that ask for the necessary input and
+check if it valid.
+The 3 function have some assist functions each one that makes
+the code readable and easier to understand. The chang_wav function have 6
+assist functions that each one makes different change in the wave file.
+if the file didn't save we choose to print message that telling the user
+about it.
+==================
