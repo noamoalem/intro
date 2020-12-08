@@ -1,0 +1,24 @@
+noamoa
+208533554
+noa moalem
+
+I discussed the exercise with:-
+
+=============================
+=  README for ex2: =
+=============================
+
+
+==================
+=  Description: =
+==================
+We asked to write 9 function that do difrrent calculation, some of them get
+the parameters from the user.
+
+======================
+=  Special Comments  =
+======================
+In the function check_function_largandsmall i choose the (0,0,0) to see if it
+works with identical numbers.
+And the rest to see if it works with negative numbers or float and in
+diferrent places.
