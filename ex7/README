@@ -1,0 +1,33 @@
+noamoa
+208533554
+noa moalem
+
+I discussed the exercise with:-
+============================
+= README for ex7: =
+============================
+
+======================
+= Description: =
+======================
+we asked to write 10 recursive function
+
+======================
+= Special Comments =
+======================
+RUNNING TIME:
+is_prime:
+The running time is O(√n), because this function use the function check_prime
+and the worst case of check_prime is √n ,because of the if n < d * d.
+
+print_no_repetition_sequences:
+The running time is O(n*len(char_list)), because the maximum of combination we
+can have is in the len of char_list and each one of them is in the len of the
+number n. so the recursive call will happen len(char_list) times and the
+operation + will happen n times.
+
+flood_fill:
+assuming the size of image is n x m (r - rows, m - columns).
+The running time is O(n x m), because the worst case is that we need to fill
+with * (n-1)(m-1) places, that is (nm-n-m+1) and if n,m are very big we can
+ignore the rest and get the running time is O(n x m).
