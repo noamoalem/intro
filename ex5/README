@@ -1,0 +1,23 @@
+noamoa
+208533554
+noa moalem
+
+I discussed the exercise with:-
+============================
+= README for ex5: =
+============================
+
+======================
+= Description: =
+======================
+we asked to write code that find word in wordsearch
+
+======================
+= Special Comments =
+======================
+i wrote the function check_function_find_diagonals_matrix,
+because i had a lot of troubles with writing find_diagonals_matrix
+
+["a"]  to see if the function can work with 1x1 matrix
+[]  to see if the function can work with empty matrix
+the other to see if it work with square matrix and non square matrix
