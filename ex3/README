@@ -1,0 +1,45 @@
+noamoa
+208533554
+noa moalem
+
+I discussed the exercise with:-
+=============================
+= README for ex3: =
+=============================
+
+==================
+= Description: =
+==================
+We asked to write 10 function, using loops ,list.
+
+======================
+= Special Comments =
+======================
+In the function check_function_maximum i choose the [] because we asked to
+return None, [0,0,0] to check if the function works with identical numbers,
+i also check if it works with only one number given and with float numbers.
+
+
+   input:                         | output:
+----------------------------------|--------------------------------------------
+1. cyclic(123,321)                |Type Error, because the function need to get
+                                  |list, and it can׳t find the len of numbers
+----------------------------------|--------------------------------------------
+2. maximum([-3,-2,-1])            |0, because i set max = 0 at first
+----------------------------------|--------------------------------------------
+3. maximum([1, 10, 100, ‘intro’]) |Type Error, because python can׳t compare
+                                  |str and int
+----------------------------------|--------------------------------------------
+4. histogram(3,[1,2,3,4])         |[0, 1, 1], because in the list [1,2,3,4]:
+                                  |0 appears 0 times
+                                  |1 appears 1 times
+                                  |2 appears 1 times
+                                  |3 appears 1 times
+                                  |and 4 is out or range(0,3)
+----------------------------------|--------------------------------------------
+5. prime_factors(0)               |[], because i set lst_of_p_factors = [] at
+                                  |at firs and 0 < n
+----------------------------------|--------------------------------------------
+6. pairs([0,0,1,1,2,2], 2)        |[[0, 2], [1, 1]], because i set a condition
+                                  |that check if the pair is already in biglist
+----------------------------------|--------------------------------------------
