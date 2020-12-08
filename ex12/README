@@ -1,0 +1,35 @@
+Logins: nir_amzaleg & noamoa
+Nir Amzaleg & Noa Moalem
+
+We didn't discussed the exercise with anybody.
+=============================
+=  README for ex12 = Four In A Row :P  =
+=============================
+
+
+==================
+Description:
+==================
+
+We asked to create the game Four In A Row using object oriented
+programming.
+
+We create 4 files:
+
+game.py -
+This file contain the Game class how responsible
+on the 4 in a row logical. In addition, we chose to create assist class
+Board how responsible on the coordinate and the order in the board.
+
+ai.py -
+This file contain the AI class how responsible
+on the ai of the computer in 4 in a row game.
+
+GUI.py -
+This file contain the GUI class how responsible
+on the visual graphic of the 4 in a row game
+
+four_in_a_row.py -
+This file create  GUI object with Game()
+object how run the four in a row game in fact.
+
